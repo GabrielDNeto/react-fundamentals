@@ -1,9 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+function App() {
+  return (
+    <div>App Component</div>
+  )
+}
+
+
 ReactDOM.render(
-  <h1 id="title">
-    <span>Hello</span>
-  </h1>,
+  <App />,
   document.getElementById('root'),
 );
